@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  publisher:
+    volumes:
+      - ./listen:/app/listen
+      - ./backup:/app/backup
+      - ./backup_error:/app/backup_error
+      - ./verdaccio:/app/verdaccio
+      - ./src:/app/src
+      - ./dist:/app/dist

@@ -1,0 +1,12 @@
+node_modules/
+.git/
+listen/
+backup/
+backup_error/
+verdaccio/
+dist/
+.env
+.gitignore
+.dockerignore
+Docker*
+docker-*
